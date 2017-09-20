@@ -1,0 +1,379 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #f0f8fb;
+}
+
+header{
+  background-color: #19283f;
+  padding-top: 18px;
+  padding-bottom: 157px;
+}
+
+.nav-bar a{
+  font-size: 15px;
+  color: #a8b9c0;
+  font-weight: normal;
+  padding: 12px 21px;
+  display: block;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #00c7c0;
+}
+
+.top-form{
+  padding: 9px 0;
+}
+
+input[type=text] {
+    width: 60px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border: 2px solid #142033;
+    border-radius: 25px;
+    background-image: url('images/Search-Icon.png');
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-position: 10px 10px;
+    width: 75%;
+    outline: none;
+    color: white;
+    background-color: transparent;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+.pt150{
+  padding-top: 150px;
+}
+
+h1{
+  font-size: 51px;
+}
+
+.middle-button{
+  font-size: 15px;
+  color: #ffc501;
+  background: #ff3150;
+  border: none;
+  border-radius: 25px;
+  padding: 14px 50px;
+}
+
+.btn-primary:hover {
+
+    background-color: #00b3db;
+    border-color: #6900ff; /*set the color you want here*/
+}
+
+
+
+
+.middle-white-block{
+  background: #fff;
+  padding-top: 59px;
+}
+
+.middle-white-block p{
+  color: #a8b9c0;
+  margin-bottom: 75px;
+  line-height: 30px;
+}
+
+.pb47{
+  padding-bottom: 47px;
+}
+
+.mid-block h1{
+  color: #1a2940;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+
+.mid_services{
+  color: #ffcd23;
+  font-size: 20px;
+  padding-top: 36px;
+}
+
+.p_icon{
+  position: absolute;
+  padding-top: 133px;
+  padding-left: 33px;
+}
+
+.m_icon{
+  position: absolute;
+  padding-top: 138px;
+  padding-left: 33px;
+}
+
+.r_icon{
+  position: absolute;
+  padding-top: 138px;
+  padding-left: 33px;
+}
+
+
+
+
+.portfolio-block{
+  background: #eff7fa;
+  padding-top: 59px;
+}
+
+.portfolio-block p{
+  color: #a8b9c0;
+}
+
+
+.nav-portfolio a{
+color: #a8b9c0;
+}
+
+.nav-portfolio a:hover{
+  background-color: #ff3150;
+  color: #ffbb06;
+  border-radius: 6px;
+}
+
+.pb30{
+  padding-bottom: 30px;
+}
+
+.pt16{
+  padding-top: 16px;
+padding-bottom: 45px;
+  margin: 0;
+}
+
+
+.mb28{
+  margin-bottom: 28px;
+}
+
+.more_button{
+  padding-top: 59px;
+  padding-bottom: 59px;
+}
+
+
+
+.about-block{
+  padding-top: 59px;
+}
+
+.about-block h1{
+  color: #1a2940;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.about-block h4, p{
+  color: #a8b9c0;
+}
+
+.about-block p{
+  line-height: 20px;
+  margin: 0;
+}
+.pb58{
+  padding-bottom: 58px;
+}
+
+.pb30_retina_design{
+  margin: 0;
+  padding-bottom: 30px;
+}
+.pb24{
+  margin: 0;
+  padding-bottom: 24px;
+}
+.order-one-button{
+  margin-right: 165px;
+}
+
+
+
+
+
+
+.team-block{
+  background-color: #eff7fa;
+  padding-top: 100px;
+  padding-bottom: 59px;
+}
+
+.team-block h1{
+  font-weight: 600;
+  color: #ffc501;
+}
+
+
+.team-block h3{
+  color: #ffffff;
+  position: absolute;
+  top: 230px;
+  left: 64px;
+}
+
+.qoute-team{
+  padding: 0 23px;
+  font-size: 15px;
+  color: #a8b9c0;
+  position: absolute;
+  top: 303px;
+  left: 12px;
+}
+
+
+
+
+.clients{
+  background: #fff;
+  padding-top: 59px;
+  padding-bottom: 59px;
+}
+
+
+.pt5{
+  padding-top: 8px;
+}
+
+.advertise{
+  background: #19283f;
+  padding-top: 117px;
+  padding-bottom: 114px;
+}
+
+.get_start_button{
+  margin-top: 44px;
+}
+
+.blog {
+  background: #fff;
+  padding-top: 59px;
+  padding-bottom: 59px;
+}
+ .blog h1{
+   color: #1a2940;
+   font-weight: 600;
+   margin-top: 50px;
+ }
+
+ .blog h4, h5{
+   color: #a8b9c0;
+ }
+.blog h4{
+  margin-bottom: 69px;
+}
+ .dark-h4{
+    color: #1a2940 !important;
+}
+
+
+
+
+.newsletter{
+  background: #ffc400;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.newsletter h4{
+  padding-top: 17px;
+  color:  #1a2940;
+}
+
+/*.newsleter-form{
+  background: none;
+  background-color: transparent;
+  padding: 0;
+  padding-top: 25px;
+  width: 41%;
+border-bottom: 1px solid white;
+}*/
+
+.form-control{
+  border: none;
+  border-radius: 0rem;
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+.form-control:focus{
+    background-color: #19283f;
+    color: white;
+}
+
+input[type=email] {
+  color: white;
+}
+
+.subscribe-button{
+  font-size: 15px;
+  color: #ffc400;
+  background: #19283f;
+  border: none;
+  border-radius: 25px;
+  padding: 14px 50px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+
+
+
+
+
+.footer{
+  background: #19283f;
+  padding-top: 59px;
+  padding-bottom: 59px;
+}
+
+.footer-ul{
+  padding-left: 0;
+}
+.links{
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer_copyright{
+  font-size: 12px;
+  padding-top: 35px;
+  line-height: 37px;
+}
+.links a{
+
+  color: #a8b9c0;
+  font-size: 12px;
+  line-height: 37px;
+}
+
+.links a:hover{
+  color: #ffc400;
+}
